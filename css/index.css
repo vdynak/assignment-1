@@ -1,5 +1,43 @@
 body {
   font-family: Gill Sans, sans-serif;
-  background-color: salmon;
-  text-align: center;
+  /* background-color: salmon;
+  text-align: center; */
+}
+
+.background-container{
+  background-image: url('https://media.istockphoto.com/id/1308684522/vector/blue-and-green-blurred-motion-abstract-background.jpg?s=612x612&w=0&k=20&c=ELAPwLRDLH1AbjPDL9RyKBuJR9vcJqn0j8Iz4JLfuCI=');
+  background-size:cover;
+  background-position:center;
+  padding:50px;
+  color:white;
+  text-align:center;
+}
+
+/* Creates a 2x2 grid for all four exhibits to be neatly arranged on page. 1fr represents the fraction of space each item will have in the grid.*/
+.exhibits-container{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:30px;
+  justify-items:center;
+}
+
+.exhibit{
+  text-align:center;
+}
+
+.exhibit img{
+  width:250px;
+  height:auto;
+  border-radius:10px;
+}
+
+.exhibit-button{
+  display:inline-block;
+  margin-top:10px;
+  padding:10px 15px; /* space around the height and length of the button */
+  background-color: #35a3c1; /* button color */
+  color:white; /* text color */
+  text-decoration:none; /* remove underline */
+  border-radius:5px;
+  font-size:1.4em;
 }
