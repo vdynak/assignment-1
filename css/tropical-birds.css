@@ -1,0 +1,82 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    background-color: rgba(11, 30, 244, 0.301);
+    text-align: center;
+    padding-bottom:50px;
+  }
+
+/* Styling for "Big Cats", changed the font, size, and adjusted positioning. */
+.page-title{
+    font-family:'Georgia', serif;
+    font-size:48px;
+    font-weight:bold;
+    color:#2c3e50;
+    text-align:center;
+    text-transform:uppercase;
+    margin:24px 0;
+    padding:16px;
+    letter-spacing:1px;
+}
+
+/* Purpose of flex is to arrange the elements vertically, seperates these elements, and then we center the element horizontally. */
+.bird-container{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+/* Styling for image size. */
+.single-bird img{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius: 20px;
+    margin-right:25px;
+}
+  
+/* Creates white box around the whole animal exhibit, border-radius = curves the box. */
+.single-bird{
+    display:flex;
+    align-items:center;
+    background-color:#ffffff;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+    padding:20px;
+}
+
+/* Take note how cat-info has two subclasses that could be accessed in the below way.*/
+.bird-info h2{
+    font-size:2em;
+    color:#355c7d;
+    margin-bottom:10px;
+}
+
+.bird-info .description{
+    text-align:left;
+    font-size:1em;
+    color:#3a3a3a;
+    line-height:1.5;
+    margin:10px 0;
+    margin-bottom:15px;
+}
+
+hr{
+    border:none;
+    height:2.2px;
+    background-color:#e0e0e0;
+    margin:20px 0;
+}
+
+.facts{
+    font-size:1.1em;
+    color:#444;
+    text-align:left;
+}
+
+.facts strong{
+    color:#2d4e5e
+}
+
+/* Potential to add responsive styling for other type of devices. */
