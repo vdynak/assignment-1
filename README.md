@@ -1,5 +1,12 @@
 # zoo-starter-code
 
+Edits made by Victoria Dynak:
+I worked on this project individually.
+My Github Page: [vdynak.gi](https://vdynak.github.io/)
+
+
+
+
 This repository is the starter code for Assignment 1 - Zoo.
 
 ### Live Link
