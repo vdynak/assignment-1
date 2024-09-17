@@ -1,7 +1,9 @@
 # zoo-starter-code
 
 Edits made by Victoria Dynak:
+
 I worked on this project individually.
+
 My Github Page: [vdynak.gi](https://vdynak.github.io/)
 
 
